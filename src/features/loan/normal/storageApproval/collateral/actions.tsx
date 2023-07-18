@@ -1,0 +1,110 @@
+import { NormalActions } from "../..";
+
+export const setCollateralApproveValidate = NormalActions.setCollateralApproveValidate;
+
+export const setCollapseTypeApproval =  NormalActions.setCollapseTypeApproval;
+export const setTypeLandApproval =  NormalActions.setTypeLandApproval;
+export const setTypeCollateralApproval =  NormalActions.setTypeCollateralApproval;
+export const setCollateralTypeActiveApproval =  NormalActions.setCollateralTypeActiveApproval;
+export const setSubTypeApproval =  NormalActions.setSubTypeApproval;
+export const setChildSubTypeApproval =  NormalActions.setChildSubTypeApproval;
+export const setActiveSubtypeItemApproval =  NormalActions.setActiveSubtypeItemApproval;
+export const setLandInformationAssetDataApproval =  NormalActions.setLandInformationAssetDataApproval;
+export const onChangeLandInformationAssetApproval =  NormalActions.onChangeLandInformationAssetApproval;
+export const removeLandInformationAssetApproval =  NormalActions.removeLandInformationAssetApproval;
+export const setCollapseSubTypeApproval =  NormalActions.setCollapseSubTypeApproval;
+export const setCollaretalCurrentValueItemApproval =  NormalActions.setCollaretalCurrentValueItemApproval;
+export const updateCollateralApprovalStorage =  NormalActions.updateCollateralApprovalStorage;
+export const fetchDataUpdateAPIStorageCollateralTypeApproval =  NormalActions.fetchDataUpdateAPIStorageCollateralType
+export const deleteLOCALSpreadSheetCollateralApproval =  NormalActions.deleteLOCALSpreadSheetCollateralApproval
+
+/////quyen tai san
+export const postCollateralsApproval =  NormalActions.postCollateralsApproval
+export const postCollateralsApprovalLVT =  NormalActions.postCollateralsApprovalLVT
+export const updateCollateralsApproval =  NormalActions.updateCollateralsApproval
+export const fetchListCollateralApproval =  NormalActions.fetchListCollateral
+export const fetchListCollateralDoneApproval =  NormalActions.fetchListCollateralDone
+
+/////quyen tai san
+export const setCollaretalRPROApproval =  NormalActions.setCollaretalRPROApproval;
+export const onChangeCollaretalRPROApproval =  NormalActions.onChangeCollaretalRPROApproval;
+
+///thong tin pháp ly giay chứng nhận type BDS
+export const addCollaretalCertificateUserListLegalApproval =  NormalActions.addCollaretalCertificateUserListLegalApproval;
+export const removeCollaretalCertificateApproval =  NormalActions.removeCollaretalCertificateApproval;
+export const removeCollaretalCertificateUserListLegalApproval =  NormalActions.removeCollaretalCertificateUserListLegalApproval
+export const setOnChangeCollaretalCertificateApproval =  NormalActions.setOnChangeCollaretalCertificateApproval;
+export const setOnChangeCollaretalCertificateUserListLegalApproval =  NormalActions.setOnChangeCollaretalCertificateUserListLegalApproval;
+export const setOnChangeCollaretalCertificateUserListLegalDataApproval =  NormalActions.setOnChangeCollaretalCertificateUserListLegalDataApproval;
+
+/// CTXD trên dất
+export const addLandCTXDApproval =  NormalActions.addLandCTXDApproval
+export const removeLandCTXDApproval =  NormalActions.removeLandCTXDApproval;
+export const onChangeHorizonListLandCTXDApproval =  NormalActions.onChangeHorizonListLandCTXDApproval
+export const setDataLandCTXDApproval =  NormalActions.setDataLandCTXDApproval
+export const setDataLandCTXDLocationApproval =  NormalActions.setDataLandCTXDLocationApproval
+export const setDataLandCTXDLocationCertificateApproval =  NormalActions.setDataLandCTXDLocationCertificateApproval
+
+
+/// CTXD có GCN QSH riêng
+export const addLandGcnQshApproval =  NormalActions.addLandGcnQshApproval;
+export const deleteLandGcnQshApproval =  NormalActions.deleteLandGcnQshApproval;
+export const setUuidActiveLandGcnQshApproval =  NormalActions.setUuidActiveLandGcnQshApproval;
+/// Loại CTXD trên dất
+export const addLandCTXDTypeApproval =  NormalActions.addLandCTXDTypeApproval
+export const removeLandCTXDTypeApproval =  NormalActions.removeLandCTXDTypeApproval;
+export const onChangeHorizonListLandCTXDTypeApproval =  NormalActions.onChangeHorizonListLandCTXDTypeApproval;
+export const onChangeLandCTXDTypeApproval =  NormalActions.onChangeLandCTXDTypeApproval;
+export const setDataLandCTXDTypeApproval =  NormalActions.setDataLandCTXDTypeApproval;
+
+
+// Loại chợ
+export const setMaketInfomationApproval =  NormalActions.setMaketInfomationApproval;
+export const setOnChangeCollaretalCertificateMaketApproval =  NormalActions.setOnChangeCollaretalCertificateMaketApproval;
+export const addCollaretalCertificateMaketApproval =  NormalActions.addCollaretalCertificateMaketApproval;
+export const addCollaretalCertificateMaketPersionListLegalApproval =  NormalActions.addCollaretalCertificateMaketPersionListLegalApproval;
+export const setOnChangeCollaretalCertificateMaketPersionListLegalApproval =  NormalActions.setOnChangeCollaretalCertificateMaketPersionListLegalApproval;
+export const setOnChangeCollaretalCertificateMaketPersionListLegalDataApproval =  NormalActions.setOnChangeCollaretalCertificateMaketPersionListLegalDataApproval;
+export const removeCollaretalCertificateMarketApproval =  NormalActions.removeCollaretalCertificateMarketApproval;
+// loai chung cu 
+export const setCollaretalCertificateDepartmentApproval =  NormalActions.setCollaretalCertificateDepartmentApproval;
+export const setOnChangeCollaretalCertificateDepartmentApproval =  NormalActions.setOnChangeCollaretalCertificateDepartmentApproval;
+export const addCollaretalCertificateDepartmentPersonListLegalApproval =  NormalActions.addCollaretalCertificateDepartmentPersonListLegalApproval;
+export const setOnChangeCollaretalCertificatDepartmentListLegalApproval =  NormalActions.setOnChangeCollaretalCertificatDepartmentListLegalApproval;
+export const setOnChangeCollaretalCertificateDepartmentListLegalDataApproval =  NormalActions.setOnChangeCollaretalCertificateDepartmentListLegalDataApproval;
+export const addCollaretalDepartmentInfoApproval =  NormalActions.addCollaretalDepartmentInfoApproval;
+export const removeCollaretalDepartmentInfoApproval =  NormalActions.removeCollaretalDepartmentInfoApproval;
+export const setOnChangeCollaretalDepartmentInfoApproval =  NormalActions.setOnChangeCollaretalDepartmentInfoApproval;
+export const setOnChangeCollaretalDepartmentInfoDataApproval =  NormalActions.setOnChangeCollaretalDepartmentInfoDataApproval;
+export const setLandInformationDataLocationApproval =  NormalActions.setLandInformationDataLocationApproval;
+export const setLandInformationDataLocationCertificateApproval =  NormalActions.setLandInformationDataLocationCertificateApproval;
+export const setLandInformationDataApproval =  NormalActions.setLandInformationDataApproval;
+export const addLandCertificateInfoApproval =  NormalActions.addLandCertificateInfoApproval;
+export const removeLandCertificateInfoUsePurposesApproval =  NormalActions.removeLandCertificateInfoUsePurposesApproval;
+export const onLandCertificateInfoApproval =  NormalActions.onLandCertificateInfoApproval;
+export const setLandCertificateInfoDataApproval =  NormalActions.setLandCertificateInfoDataApproval;
+export const autoFillRESTApproval =  NormalActions.autoFillREST;
+export const autoFillRESTDepartmentApproval =  NormalActions.autoFillRESTDepartment;
+export const autoFillRESTMarketApproval =  NormalActions.autoFillRESTMarket;
+export const setCheckboxTransportTypeApproval =  NormalActions.setCheckboxTransportType;
+
+
+//// Thông tin pháp lý Đối tượng sở hữu tài sản
+export const setCollaretalOwnerTypeApproval =  NormalActions.setCollaretalOwnerTypeApproval;
+export const setOnChangeCollaretalActiveOwnerApproval =  NormalActions.setOnChangeCollaretalActiveOwnerApproval
+export const setCollaretalInfoOwnerHasAuthorizeApproval =  NormalActions.setCollaretalInfoOwnerHasAuthorizeApproval
+export const setCollaretalOwnerModalApproval =  NormalActions.setCollaretalOwnerModalApproval
+export const setCollaretalHasAuthorApproval =  NormalActions.setCollaretalHasAuthorApproval
+export const setOnChangeCollaretalActiveHasAuthorApproval =  NormalActions.setOnChangeCollaretalActiveHasAuthorApproval
+export const setOnChangeCollaretalDetailHasAuthorApproval =  NormalActions.setOnChangeCollaretalDetailHasAuthorApproval
+export const setCollaretalCertificatePersionApproval =  NormalActions.setCollaretalCertificatePersionApproval
+
+export const addSpreadSheetCollateralApproval =  NormalActions.addSpreadSheetCollateralApproval
+export const deleteSpreadSheetCollateralApproval =  NormalActions.deleteSpreadSheetCollateralApproval
+export const onChangeSpreadSheetCollateralApproval =  NormalActions.onChangeSpreadSheetCollateralApproval
+export const onChangeDataAccept =  NormalActions.onChangeDataAccept
+export const onChangeDataAcceptCurrent =  NormalActions.onChangeDataAcceptCurrent
+export const setEditLogs =  NormalActions.setEditLogs
+export const updateDataLogs =  NormalActions.updateDataLogs
+export const setUuidAttachmentLegalApproval = NormalActions.setUuidAttachmentLegalApproval;
+export const clearSpreadSheet = NormalActions.clearSpreadSheet

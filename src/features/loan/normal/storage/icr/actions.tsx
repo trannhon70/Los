@@ -1,0 +1,46 @@
+import { NormalActions } from 'features/loan/normal';
+
+export const getInfoLoanNormalCIC = NormalActions.getInfoLoanNormalCIC;
+export const updateLoanNormalCIC = NormalActions.updateLoanNormalCIC;
+
+// BussinesCore
+export const setLoanNormalCICBussinesCore = NormalActions.setLoanNormalCICBussinesCore;
+export const setLoanNormalCICBussinesRank = NormalActions.setLoanNormalCICBussinesRank;
+export const setLoanNormalCICBussinesDate = NormalActions.setLoanNormalCICBussinesDate;
+
+// LevelOfApproval
+export const setLoanNormalCICLevelOfApprovalCore = NormalActions.setLoanNormalCICLevelOfApprovalCore;
+export const setLoanNormalCICLevelOfApprovalRank = NormalActions.setLoanNormalCICLevelOfApprovalRank;
+export const setLoanNormalCICLevelOfApprovalDate = NormalActions.setLoanNormalCICLevelOfApprovalDate;
+
+// RiskManagement
+export const setLoanNormalCICRiskManagementCore = NormalActions.setLoanNormalCICRiskManagementCore;
+export const setLoanNormalCICRiskManagementRank = NormalActions.setLoanNormalCICRiskManagementRank;
+export const setLoanNormalCICRiskManagementNote = NormalActions.setLoanNormalCICRiskManagementNote;
+export const setLoanNormalCICRiskManagementDate = NormalActions.setLoanNormalCICRiskManagementDate;
+
+export const setLoanNormalEmpICRResult = NormalActions.setLoanNormalBusinessEmpICRResult;
+export const saveLOANNormalICR = NormalActions.saveLOANNormalICR;
+export const updateDataLOANNormalICR = NormalActions.updateDataLOANNormalICR;
+export const clearNormalICRStorage = NormalActions.clearNormalICRStorage;
+
+
+/// File
+export const mappingICRDataFileAlterUpload = NormalActions.mappingICRDataFileAlterUpload;
+export const saveLOANNormalStorageICRModalAttachFile = NormalActions.saveLOANNormalStorageICRModalAttachFile;
+export const addNewLOANNormalStorageICRParentDoc = NormalActions.addNewLOANNormalStorageICRParentDoc;
+export const setDataLOANNormalStorageICRParentDoc = NormalActions.setDataLOANNormalStorageICRParentDoc;
+export const addNewLOANNormalStorageICRDoc = NormalActions.addNewLOANNormalStorageICRDoc;
+export const setDataLOANNormalStorageICRDoc = NormalActions.setDataLOANNormalStorageICRDoc;
+export const addNewLOANNormalStorageICRFile = NormalActions.addNewLOANNormalStorageICRFile;
+export const setDataLOANNormalStorageICRFile = NormalActions.setDataLOANNormalStorageICRFile;
+export const setDescriptionLOANNormalStorageICRFile = NormalActions.setDescriptionLOANNormalStorageICRFile;
+export const removeAllLOANNormalStorageICRParentDoc = NormalActions.removeAllLOANNormalStorageICRParentDoc;
+export const removeLOANNormalStorageICRParentDoc = NormalActions.removeLOANNormalStorageICRParentDoc;
+export const removeLOANNormalStorageICRDoc = NormalActions.removeLOANNormalStorageICRDoc;
+export const removeLOANNormalStorageICRFile = NormalActions.removeLOANNormalStorageICRFile;
+export const mappingDataLOANNormalStorageICRModalAttachFile = NormalActions.mappingDataLOANNormalStorageICRModalAttachFile;
+
+
+
+

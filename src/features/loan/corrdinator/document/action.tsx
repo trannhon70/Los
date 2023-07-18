@@ -1,0 +1,14 @@
+import { CorrdinatorLOANActions } from "../slice";
+
+export const fetchCorrdinatorLOANList = CorrdinatorLOANActions.fetchCorrdinatorLOANList;
+export const fetchCorrdinatorLOANListDone = CorrdinatorLOANActions.fetchCorrdinatorLOANListDone;
+export const updateDataFullLOANStored = CorrdinatorLOANActions.updateDataFullLOANStored;
+export const updateCorrdinatorLOANListLimit = CorrdinatorLOANActions.updateCorrdinatorLOANListLimit;
+export const updateCorrdinatorLOANSearchCustomerName = CorrdinatorLOANActions.updateCorrdinatorLOANSearchCustomerName;
+export const updateCorrdinatorLOANListPage = CorrdinatorLOANActions.updateCorrdinatorLOANListPage;
+export const updateCorrdinatorLOANListData = CorrdinatorLOANActions.updateCorrdinatorLOANListData;
+export const updateFidleCorrdinatorLOANListData = CorrdinatorLOANActions.updateFidleCorrdinatorLOANListData;
+export const postLOANGrandRole = CorrdinatorLOANActions.postLOANGrandRole;
+export const updateLOANGranRoleData = CorrdinatorLOANActions.updateLOANGranRoleData;
+export const updateLOANDisiableEdit = CorrdinatorLOANActions.updateLOANDisiableEdit;
+export const refreshDataLOAN = CorrdinatorLOANActions.refreshDataLOAN;

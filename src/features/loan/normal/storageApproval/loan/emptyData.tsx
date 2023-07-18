@@ -1,0 +1,23 @@
+
+import { generateUUID } from 'utils';
+export const EmtyEvaluationData ={
+    method_business: "",
+    number_members: null,
+    business_efficiency: "",
+    input: "",
+    output: "",
+    evaluate: ""
+}
+export const EmptyWareHouse = {
+    area: null,
+    address: '',
+    province: null,
+    district: null,
+    ward: null,
+    uuid: generateUUID(),
+    primary_flag: true
+}
+
+
+export const autoFillTable1 = {"sequence_uuid":"ca22fcd4-2110-4594-9dfe-4046cd5a7f48","plan_effect":{"turn_over":{"business_unit_period_t":1000000,"business_unit_period_t1":1000000,"evaluation_staff_t":1000000,"evaluation_staff_t1":1000000},"total_cost":{"business_unit_period_t":300000,"business_unit_period_t1":300000,"evaluation_staff_t":300000,"evaluation_staff_t1":300000},"profit":{"business_unit_period_t":700000,"business_unit_period_t1":700000,"evaluation_staff_t":0,"evaluation_staff_t1":0}},"loan_limit":{"working_capital":{"business_unit_period_t":0.00365,"business_unit_period_t1":0.00365,"evaluation_staff_t":10,"evaluation_staff_t1":10},"capital_needs":{"business_unit_period_t":27397260.27,"business_unit_period_t1":27397260.27,"evaluation_staff_t":0,"evaluation_staff_t1":0},"own_working_capital":{"business_unit_period_t":360000,"business_unit_period_t1":0,"evaluation_staff_t":360000,"evaluation_staff_t1":360000},"payable_to_other_sellers":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":100000,"evaluation_staff_t1":100000},"other_credit_institutions":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":10000,"evaluation_staff_t1":10000},"loan_demand_at_scb":{"business_unit_period_t":26837260.27,"business_unit_period_t1":26837260.27,"evaluation_staff_t":0,"evaluation_staff_t1":0},"scb_sponsor_ratio":{"business_unit_period_t":16.67,"business_unit_period_t1":16.67,"evaluation_staff_t":0,"evaluation_staff_t1":0}},"document_groups":[{"id":110,"name":"phuong an vay von","display_order":1,"document_types":[]},{"id":111,"name":"phuong an vay von","display_order":1,"document_types":[{"document_id":18,"document_name":"GIẤY ĐỀ NGHỊ VAY VỐN","display_order":null,"child_files":[{"uuid":"00d70c2a7f4449a3a36eacbdbebeee35","name":"00d70c2a7f4449a3a36eacbdbebeee35","content_type":"text/plain","display_order":null,"created_by":"LOS","created_at":1630886539,"updated_at":1630886539,"updated_by":"LOS"}]}]}],"note":{"content":"string","updated_at":1634169600,"updated_by":"string"}}
+export const autoFillTable2 = {"sequence_uuid":"ca22fcd4-2110-4594-9dfe-4046cd5a7f48","plan_effect":{"turn_over":{"business_unit_period_t":1000000,"business_unit_period_t1":1000000,"evaluation_staff_t":1000000,"evaluation_staff_t1":1000000},"total_cost":{"business_unit_period_t":200000,"business_unit_period_t1":200000,"evaluation_staff_t":0,"evaluation_staff_t1":0,"price_product":{"business_unit_period_t":0,"business_unit_period_t1":0,"evaluation_staff_t":0,"evaluation_staff_t1":0},"management_cost":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":100000,"evaluation_staff_t1":100000},"loan_cost":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":100000,"evaluation_staff_t1":100000},"other_cost":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":100000,"evaluation_staff_t1":100000}},"profit":{"business_unit_period_t":700000,"business_unit_period_t1":700000,"evaluation_staff_t":0,"evaluation_staff_t1":0}},"loan_limit":{"total_capital_need":{"business_unit_period_t":200000,"business_unit_period_t1":200000,"evaluation_staff_t":0,"evaluation_staff_t1":0},"equity_capital":{"business_unit_period_t":360000,"business_unit_period_t1":360000,"evaluation_staff_t":360000,"evaluation_staff_t1":360000},"credit_capital":{"business_unit_period_t":200000,"business_unit_period_t1":200000,"evaluation_staff_t":360000,"evaluation_staff_t1":360000},"loan_scb":{"business_unit_period_t":-360000,"business_unit_period_t1":-360000,"evaluation_staff_t":0,"evaluation_staff_t1":0},"scb_sponsor_ratio":{"business_unit_period_t":100000,"business_unit_period_t1":100000,"evaluation_staff_t":0,"evaluation_staff_t1":0}},"document_groups":[{"id":110,"name":"phuong an vay von","display_order":1,"document_types":[]},{"id":111,"name":"phuong an vay von","display_order":1,"document_types":[{"document_id":18,"document_name":"GIẤY ĐỀ NGHỊ VAY VỐN","display_order":null,"child_files":[{"uuid":"00d70c2a7f4449a3a36eacbdbebeee35","name":"00d70c2a7f4449a3a36eacbdbebeee35","content_type":"text/plain","display_order":null,"created_by":"LOS","created_at":1630886539,"updated_at":1630886539,"updated_by":"LOS"}]}]}],"note":{"content":"string","updated_at":1634169600,"updated_by":"string"}}

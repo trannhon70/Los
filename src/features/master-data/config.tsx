@@ -1,0 +1,443 @@
+import { TMasterDataProp } from "types/models/master-data";
+import {
+  API_MASTER_V2_ABLE_PAY_LABEL,
+  API_MASTER_V2_ACCEPT_CREDIT_LABEL,
+  API_MASTER_V2_ACCEPT_STATUS,
+  API_MASTER_V2_APPRAISAL_PURPOSE,
+  API_MASTER_V2_APPRAISAL_UNIT_TYPE,
+  API_MASTER_V2_ASSET_TYPE,
+  API_MASTER_V2_AUTHEN_QUESTION,
+  API_MASTER_V2_AVERAGE_INCOME,
+  API_MASTER_V2_BUSINESS_LICENCE_TYPE,
+  API_MASTER_V2_BUSINESS_REPRESENLATION,
+  API_MASTER_V2_BUSINESS_TYPE,
+  API_MASTER_V2_BUSINESS_TYPE_SH,
+  API_MASTER_V2_CARD_DELIVERY_METHOD,
+  API_MASTER_V2_CAREERS,
+  API_MASTER_V2_COLLATERAL_CARTIFIRED_TYPE,
+  API_MASTER_V2_COLLATERAL_OWNER_TYPE,
+  API_MASTER_V2_COLLATERAL_TYPE,
+  API_MASTER_V2_CONSTRUCTION_CERTIFICATE_TYPE,
+  API_MASTER_V2_CONSTRUCTION_PREMIT,
+  API_MASTER_V2_CONSTRUCTION_TYPE,
+  API_MASTER_V2_CONTRACT_TERM,
+  API_MASTER_V2_CREDIT_INSTITUTION,
+  API_MASTER_V2_CURRENT_TYPE,
+  API_MASTER_V2_CUSTOMER_NEED,
+  API_MASTER_V2_CUSTOMER_SEGMENT,
+  API_MASTER_V2_CUST_CLASSIFICATION,
+  API_MASTER_V2_DATA_ADDRESS_TYPE,
+  API_MASTER_V2_DATA_CIF_IF_TYPE,
+  API_MASTER_V2_DATA_COLLATERAL,
+  API_MASTER_V2_DATA_COUNTRY,
+  API_MASTER_V2_DATA_CUSTOMER_TYPE,
+  API_MASTER_V2_DATA_DISTRICT,
+  API_MASTER_V2_DATA_EDUCATION,
+  API_MASTER_V2_DATA_EXCEPTION_FILE,
+  API_MASTER_V2_DATA_GENDER,
+  API_MASTER_V2_DATA_LOAN_PRODUCT,
+  API_MASTER_V2_DATA_MARRIED_STATUS,
+  API_MASTER_V2_DATA_OWNER_PROPERTY,
+  API_MASTER_V2_DATA_PARTNER,
+  API_MASTER_V2_DATA_PARTNER_PRODUCT,
+  API_MASTER_V2_DATA_PERSIONAL_REP,
+  API_MASTER_V2_DATA_PROVINCE,
+  API_MASTER_V2_DATA_RELATIONSHIP,
+  API_MASTER_V2_DATA_WARD,
+  API_MASTER_V2_DEBT_CLASSIFICATION,
+  API_MASTER_V2_DISBURSEMENT,
+  API_MASTER_V2_DOCUMENT_TYPE,
+  API_MASTER_V2_FATCA,
+  API_MASTER_V2_FREQUENCE,
+  API_MASTER_V2_GIFT_CONDITION,
+  API_MASTER_V2_GIFT_SELECTION,
+  API_MASTER_V2_GUARANTEE_FORM,
+  API_MASTER_V2_ISSUER,
+  API_MASTER_V2_LAND_USE_CERTIFIED,
+  API_MASTER_V2_LEGAL_STATUS,
+  API_MASTER_V2_LENDING_METHOD,
+  API_MASTER_V2_LOAN_INTEREST_RATE,
+  API_MASTER_V2_LOAN_PURPOSE,
+  API_MASTER_V2_LOAN_PURPOSE_CORE,
+  API_MASTER_V2_METHOD_RECEIVE_SALARY,
+  API_MASTER_V2_ORIGIN_LANE_USE,
+  API_MASTER_V2_OTHER_CONTRACT_LABEL,
+  API_MASTER_V2_PAYMENT_METHOD,
+  API_MASTER_V2_PEPPLE_DEPEND,
+  API_MASTER_V2_POLICY_DETAIL,
+  API_MASTER_V2_DEVICES_PROPERTY_STATUS,
+  API_MASTER_V2_PURPOSE_USE_LANE_VALUATION,
+  API_MASTER_V2_PURPOSE_USING_LANE,
+  API_MASTER_V2_RELEASE_TYPE,
+  API_MASTER_V2_REMARK,
+  API_MASTER_V2_REPAY_PRINCIPAL_INTEREST,
+  API_MASTER_V2_RESIDEN_STATUS,
+  API_MASTER_V2_ROAD_WIDTH,
+  API_MASTER_V2_SCHEDULE,
+  API_MASTER_V2_SCORE_RANK_DETAIL,
+  API_MASTER_V2_TYPE_APARTMENT,
+  API_MASTER_V2_TYPE_CARD_USE,
+  API_MASTER_V2_TYPE_EXCEPTION,
+  API_MASTER_V2_TYPE_REAL_ESTATE,
+  API_MASTER_V2_TYPE_REAL_ESTATE_STATUS,
+  API_MASTER_V2_TYPE_RISK,
+  API_MASTER_V2_TYPE_TEMPLATE,
+  API_MASTER_V2_TYPE_TERM_LOAN,
+  API_MASTER_V2_VEHICLE_STATUS,
+  API_MASTER_V2_GOODS_PROPERTY_STATUS,
+  API_MASTER_V2_RIGHT_PROPERTY_PROPERTY_STATUS,
+  API_MASTER_V2_PAPER_TYPE,
+  API_MASTER_V2_PROPERTY_TYPE,
+  API_MASTER_V2_VEHICLE_TYPE,
+  API_MASTER_V2_VEHICLE_DETAIL,
+  API_MASTER_V2_LIST_LEGAL_DOCUMENT,
+  API_MASTER_V2_COLLATERAL_LOCATION_TYPE,
+  API_MASTER_V2_PERSON_TYPES,
+  API_MASTER_V2_INDEPENDENT_VALUATION,
+  API_MASTER_V2_PRICE_APPRAISAL,
+  API_MASTER_V2_COUNTRIES_MANUFACTURE,
+  API_MASTER_V2_BUSINESS_TYPE_INCOME,
+  API_MASTER_V2_RENTAL_OWNER_PROPERTY,
+  API_MASTER_V2_S2_CAPITAL_NEED,
+  API_MASTER_V2_S2_IS_PASS,
+  API_MASTER_V2_S2_REASON_FOR_REFUSAL,
+  API_MASTER_V2_S2_NOTICE_TITLE,
+  API_MASTER_V2_DOCUMENT_STATES,
+  API_MASTER_V2_MACHINE_TYPE,
+  API_MASTER_V2_VALIDATE_MA_COST_TYPE,
+  API_CONFIG_V2_ENV_GLOBAL,
+  API_CONFIG_V2_POLICY_GROUP
+} from "./ApiPath";
+
+export interface IMasterDataConfig{
+  path: string;
+}
+
+export const config: Partial<Record<TMasterDataProp, IMasterDataConfig>> = {
+  // ============= Configs Common ========================= //
+  country: {
+    path: API_MASTER_V2_DATA_COUNTRY
+  },
+  province: {
+    path: API_MASTER_V2_DATA_PROVINCE
+  },
+  district: {
+    path: API_MASTER_V2_DATA_DISTRICT
+  },
+  ward: {
+    path: API_MASTER_V2_DATA_WARD
+  },
+  loanProduct: {
+    path: API_MASTER_V2_DATA_LOAN_PRODUCT
+  },
+  partner: {
+    path: API_MASTER_V2_DATA_PARTNER
+  },
+  partnerProduct: {
+    path: API_MASTER_V2_DATA_PARTNER_PRODUCT
+  },
+  collateral: {
+    path: API_MASTER_V2_DATA_COLLATERAL
+  },
+  personalRep: {
+    path: API_MASTER_V2_DATA_PERSIONAL_REP
+  },
+  exceptionFile: {
+    path: API_MASTER_V2_DATA_EXCEPTION_FILE
+  },
+  marriedStatus: {
+    path: API_MASTER_V2_DATA_MARRIED_STATUS
+  },
+  education: {
+    path: API_MASTER_V2_DATA_EDUCATION
+  },
+  cifIfType:{
+    path: API_MASTER_V2_DATA_CIF_IF_TYPE
+  },
+  addressType:{
+    path: API_MASTER_V2_DATA_ADDRESS_TYPE
+  },
+  relationship: {
+    path: API_MASTER_V2_DATA_RELATIONSHIP
+  },
+  ownerProperty: {
+    path: API_MASTER_V2_DATA_OWNER_PROPERTY
+  },
+  customerType:{
+    path: API_MASTER_V2_DATA_CUSTOMER_TYPE
+  },
+  gender: {
+    path: API_MASTER_V2_DATA_GENDER
+  },
+  averageIncome: {
+    path: API_MASTER_V2_AVERAGE_INCOME
+  },
+  custClassififation: {
+    path: API_MASTER_V2_CUST_CLASSIFICATION
+  },
+  peopleDepend: {
+    path: API_MASTER_V2_PEPPLE_DEPEND
+  },
+  residentStatus: {
+    path: API_MASTER_V2_RESIDEN_STATUS
+  },
+  debtClassification: {
+    path: API_MASTER_V2_DEBT_CLASSIFICATION
+  },
+  collateralType: {
+    path: API_MASTER_V2_COLLATERAL_TYPE
+  },
+  machineType: {
+    path: API_MASTER_V2_MACHINE_TYPE
+  },
+  typeTermLoan: {
+    path: API_MASTER_V2_TYPE_TERM_LOAN
+  },
+  loanPurpose: {
+    path: API_MASTER_V2_LOAN_PURPOSE
+  },
+  remark: {
+    path: API_MASTER_V2_REMARK
+  },
+  methodReceiveSalary:{
+    path: API_MASTER_V2_METHOD_RECEIVE_SALARY
+  },
+  ablePayLabel: {
+    path: API_MASTER_V2_ABLE_PAY_LABEL
+  },
+  businessTypeSh: {
+    path: API_MASTER_V2_BUSINESS_TYPE_SH
+  },
+  businessType: {
+    path: API_MASTER_V2_BUSINESS_TYPE
+  },
+  businessTypeIncome:{
+    path: API_MASTER_V2_BUSINESS_TYPE_INCOME
+  },
+  contractTerm: {
+    path: API_MASTER_V2_CONTRACT_TERM
+  },
+  frequence: {
+    path: API_MASTER_V2_FREQUENCE
+  },
+  repayPrincipalInterest:{
+    path: API_MASTER_V2_REPAY_PRINCIPAL_INTEREST
+  },
+  typeRealEstate: {
+    path: API_MASTER_V2_TYPE_REAL_ESTATE
+  },
+  typeRealEstateStatus: {
+    path: API_MASTER_V2_TYPE_REAL_ESTATE_STATUS
+  },
+  typeException: {
+    path: API_MASTER_V2_TYPE_EXCEPTION
+  },
+  typeRisk: {
+    path: API_MASTER_V2_TYPE_RISK
+  },
+  pollicyDetail: {
+    path: API_MASTER_V2_POLICY_DETAIL
+  },
+  acceptCreditLabel: {
+    path: API_MASTER_V2_ACCEPT_CREDIT_LABEL
+  },
+  typeTemplate: {
+    path: API_MASTER_V2_TYPE_TEMPLATE
+  },
+  rentalOwnerProperty: {
+    path: API_MASTER_V2_RENTAL_OWNER_PROPERTY
+  },
+  documentStatus :{
+    path: API_MASTER_V2_DOCUMENT_STATES
+  },
+  validateMaCostType :{
+    path: API_MASTER_V2_VALIDATE_MA_COST_TYPE
+  },
+
+
+  // ============= Config Card ========================= //
+  authenQuestion: {
+    path: API_MASTER_V2_AUTHEN_QUESTION
+  },
+  customerSegment: {
+    path: API_MASTER_V2_CUSTOMER_SEGMENT
+  },
+  customerNeed: {
+    path: API_MASTER_V2_CUSTOMER_NEED
+  },
+  cardDeliveryMethod: {
+    path: API_MASTER_V2_CARD_DELIVERY_METHOD
+  },
+  releaseType: {
+    path: API_MASTER_V2_RELEASE_TYPE
+  },
+  guaranteeForm: {
+    path: API_MASTER_V2_GUARANTEE_FORM
+  },
+  giftCondition: {
+    path: API_MASTER_V2_GIFT_CONDITION
+  },
+  typeCardUse: {
+    path: API_MASTER_V2_TYPE_CARD_USE
+  },
+  giftSelection: {
+    path: API_MASTER_V2_GIFT_SELECTION
+  },
+  personTypes: {
+    path: API_MASTER_V2_PERSON_TYPES
+  },
+  // ============= Config Normal ========================= //
+  careers: {
+    path: API_MASTER_V2_CAREERS
+  },
+  fatca: {
+    path: API_MASTER_V2_FATCA
+  },
+  creditInstitution: {
+    path: API_MASTER_V2_CREDIT_INSTITUTION
+  },
+  loanPurposeCore: {
+    path: API_MASTER_V2_LOAN_PURPOSE_CORE
+  },
+  currencyType: {
+    path: API_MASTER_V2_CURRENT_TYPE
+  },
+  lendingMethod: {
+    path: API_MASTER_V2_LENDING_METHOD
+  },
+  disbursement: {
+    path: API_MASTER_V2_DISBURSEMENT
+  },
+  schedule: {
+    path: API_MASTER_V2_SCHEDULE
+  },
+  loanInterestRate: {
+    path: API_MASTER_V2_LOAN_INTEREST_RATE
+  },
+  businessLicenceType: {
+    path: API_MASTER_V2_BUSINESS_LICENCE_TYPE
+  },
+  paymentMethod: {
+    path: API_MASTER_V2_PAYMENT_METHOD
+  },
+  issuer: {
+    path: API_MASTER_V2_ISSUER
+  },
+  assetType: {
+    path: API_MASTER_V2_ASSET_TYPE
+  },
+  acceptStatus: {
+    path: API_MASTER_V2_ACCEPT_STATUS
+  },
+  otherContractLabel: {
+    path: API_MASTER_V2_OTHER_CONTRACT_LABEL
+  },
+  businessRepresentation: {
+    path: API_MASTER_V2_BUSINESS_REPRESENLATION
+  },
+  documentType: {
+    path: API_MASTER_V2_DOCUMENT_TYPE
+  },
+  scoreRankDetail: {
+    path: API_MASTER_V2_SCORE_RANK_DETAIL
+  },
+  appraisalUnitType: {
+    path: API_MASTER_V2_APPRAISAL_UNIT_TYPE
+  },
+  appraisalPurpose: {
+    path: API_MASTER_V2_APPRAISAL_PURPOSE
+  },
+  roadWidth: {
+    path: API_MASTER_V2_ROAD_WIDTH
+  },
+  collateralCertifiedType: {
+    path: API_MASTER_V2_COLLATERAL_CARTIFIRED_TYPE
+  },
+  collateralOwnerType: {
+    path: API_MASTER_V2_COLLATERAL_OWNER_TYPE
+  },
+  purposeUsingLane: {
+    path: API_MASTER_V2_PURPOSE_USING_LANE
+  },
+  originLaneUse: {
+    path: API_MASTER_V2_ORIGIN_LANE_USE
+  },
+  landUseCertified: {
+    path: API_MASTER_V2_LAND_USE_CERTIFIED
+  },
+  constructionPermit: {
+    path: API_MASTER_V2_CONSTRUCTION_PREMIT
+  },
+  constructionType: {
+    path: API_MASTER_V2_CONSTRUCTION_TYPE
+  },
+  collateralCertificateType: {
+    path: API_MASTER_V2_CONSTRUCTION_CERTIFICATE_TYPE
+  },
+  legalStatus: {
+    path: API_MASTER_V2_LEGAL_STATUS
+  },
+  purposeUseLaneValuation: {
+    path: API_MASTER_V2_PURPOSE_USE_LANE_VALUATION
+  },
+  typeApartment: {
+    path: API_MASTER_V2_TYPE_APARTMENT
+  },
+  vehicleStatus: {
+    path: API_MASTER_V2_VEHICLE_STATUS
+  },
+  devicesPropertyStatus: {
+    path: API_MASTER_V2_DEVICES_PROPERTY_STATUS
+  },
+  goodPropertyStatus: {
+    path: API_MASTER_V2_GOODS_PROPERTY_STATUS
+  },
+  rightPropertyPropertyStatus: {
+    path: API_MASTER_V2_RIGHT_PROPERTY_PROPERTY_STATUS
+  },
+  paperType: {
+    path: API_MASTER_V2_PAPER_TYPE
+  },
+  propertyType: {
+    path: API_MASTER_V2_PROPERTY_TYPE
+  },
+  vehicleType: {
+    path: API_MASTER_V2_VEHICLE_TYPE
+  },
+  vehicleDetail: {
+    path: API_MASTER_V2_VEHICLE_DETAIL
+  },
+  listLegalDocument: {
+    path: API_MASTER_V2_LIST_LEGAL_DOCUMENT
+  },
+  collateralLocationType: {
+    path: API_MASTER_V2_COLLATERAL_LOCATION_TYPE
+  },
+  independentValuation: {
+    path: API_MASTER_V2_INDEPENDENT_VALUATION
+  },
+  priceAppraisal: {
+    path: API_MASTER_V2_PRICE_APPRAISAL
+  },
+  countriesManufacture: {
+    path: API_MASTER_V2_COUNTRIES_MANUFACTURE
+  },
+  capitalNeed: {
+    path: API_MASTER_V2_S2_CAPITAL_NEED
+  },
+  isPass: {
+    path: API_MASTER_V2_S2_IS_PASS
+  },
+  reasonForRefusal:{
+    path: API_MASTER_V2_S2_REASON_FOR_REFUSAL
+  },
+  noticeTitle:{
+    path: API_MASTER_V2_S2_NOTICE_TITLE
+  },
+  envGlobal: {
+    path: API_CONFIG_V2_ENV_GLOBAL
+  },
+  policyGroup:{
+    path: API_CONFIG_V2_POLICY_GROUP
+  }
+}

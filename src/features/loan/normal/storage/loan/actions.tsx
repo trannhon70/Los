@@ -1,0 +1,66 @@
+import { NormalActions } from 'features/loan/normal';
+
+export const setLOANNormalStorageLOANProduct = NormalActions.setLOANProduct;
+export const setLOANNormalStorageLOANNeedAndPlan = NormalActions.setLOANNeedAndPlan;
+export const setLOANNormalStorageLOANNeedAndPlanNeed = NormalActions.setLOANNeedAndPlanNeed;
+export const setLOANNormalStorageLOANNeedAndPlanOwnCaptital = NormalActions.setLOANNeedAndPlanOwnCaptital;
+export const setLOANNormalStorageLOANNeedAndPlanExpiredCredit = NormalActions.setLOANNeedAndPlanExpiredCredit;
+export const setLOANNormalStorageLOANLegalBusiness = NormalActions.setLOANLegalBusiness;
+export const setLOANNormalStorageLOANWarehouse = NormalActions.setWarehouse;
+export const addLOANNormalStorageLOANWarehouse = NormalActions.addWarehouse;
+export const updateLOANNormalStorageLOANPrimaryWarehouse = NormalActions.updatePrimaryWarehouse;
+export const updateLOANNormalStorageLOANWarehouse = NormalActions.updateWarehouse;
+export const deleteLOANNormalStorageLOANWarehouse = NormalActions.deleteWarehouse;
+export const setLOANNormalStorageLOANFinanceGroupValue = NormalActions.setFinanceGroupValue;
+export const setLOANNormalStorageLOANFinanceTypeValue = NormalActions.setFinanceTypeValue;
+export const addLOANNormalStorageLOANInOutInfo = NormalActions.addLOANInOutInfo;
+export const setLOANNormalStorageLOANInOutPrimary = NormalActions.setLOANInOutPrimary;
+export const setLOANNormalStorageLOANInOutNote = NormalActions.setLOANInOutNote;
+export const setPrimarySupplier = NormalActions.setPrimarySupplier
+export const setPrimaryPurchasingPartner = NormalActions.setPrimaryPurchasingPartner
+export const setAnalysisEvaluateInfo = NormalActions.setAnalysisEvaluateInfo
+export const saveLoanProduct = NormalActions.saveLoanProduct;
+export const saveLoanCapitalNeed = NormalActions.saveLoanCapitalNeed;
+export const saveLoanBussinessHouseHold = NormalActions.saveLoanBussinessHouseHold;
+export const saveLoanFinance = NormalActions.saveLoanFinance;
+export const deleteLOANNormalStorage = NormalActions.deleteLOAN;
+export const clearStorageDelete = NormalActions.clearStorageDelete
+export const deleteInOut = NormalActions.deleteInOut
+export const updateLOANInOutInfo = NormalActions.updateLOANInOutInfo
+export const handleContinueLoan = NormalActions.handleContinueLoan;
+
+
+
+
+
+export const setLOANNormalStorageLoanValidate = NormalActions.setLoanValidate;
+// export const updateLOANNormalStorageLOANAPI = NormalActions.updateAPIStorageLOAN;
+export const updateAPIStorageLOANProductAPI = NormalActions.updateAPIStorageLOANProduct;
+export const updateAPIStorageLOANNeededPlan = NormalActions.updateAPIStorageLOANNeededPlan
+export const updateAPIStorageLOANBusinessLegal = NormalActions.updateAPIStorageLOANBusinessLegal
+export const updateAPIStorageLOANFinance = NormalActions.updateAPIStorageLOANFinance
+
+
+export const clearNormalLOAN = NormalActions.clearNormalLOAN;
+export const autoFillNeedAndPlan = NormalActions.autoFillNeedAndPlan;
+export const autoFillBussiness = NormalActions.autoFillBussiness;
+export const autoFillFinance = NormalActions.autoFillFinance;
+export const autoFillStepA = NormalActions.autoFillStepA;
+
+/**
+ * handle FILE LOAN 
+ */
+export const removeAllLOANNormalStorageLOANParentDoc = NormalActions.removeAllLOANNormalStorageLOANParentDoc;
+export const addNewLOANNormalStorageLOANParentDoc = NormalActions.addNewLOANNormalStorageLOANParentDoc;
+export const setDataLOANNormalStorageLOANParentDoc = NormalActions.setDataLOANNormalStorageLOANParentDoc;
+export const addNewLOANNormalStorageLOANDoc = NormalActions.addNewLOANNormalStorageLOANDoc;
+export const setDataLOANNormalStorageLOANDoc = NormalActions.setDataLOANNormalStorageLOANDoc;
+export const addNewLOANNormalStorageLOANFile = NormalActions.addNewLOANNormalStorageLOANFile;
+export const setDataLOANNormalStorageLOANFile = NormalActions.setDataLOANNormalStorageLOANFile;
+export const setDescriptionLOANNormalStorageLOANFile = NormalActions.setDescriptionLOANNormalStorageLOANFile;
+export const removeLOANNormalStorageLOANParentDoc = NormalActions.removeLOANNormalStorageLOANParentDoc;
+export const removeLOANNormalStorageLOANFile = NormalActions.removeLOANNormalStorageLOANFile;
+export const removeLOANNormalStorageLOANDoc = NormalActions.removeLOANNormalStorageLOANDoc;
+export const saveLOANNormalStorageLOANModalAttachFile = NormalActions.saveLOANNormalStorageLOANModalAttachFile;
+export const mappingDataLOANNormalStorageLOANModalAttachFile  = NormalActions.mappingDataLOANNormalStorageLOANModalAttachFile;
+export const mappingLOANDataFileAlterUpload  = NormalActions.mappingLOANDataFileAlterUpload;

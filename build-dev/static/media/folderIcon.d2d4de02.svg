@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.589" height="22.649" viewBox="0 0 30.589 22.649">
+    <defs>
+        <filter id="Path_34710" width="30.589" height="22.649" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:#5073b8}
+        </style>
+    </defs>
+    <g id="Group_61038" transform="translate(-351.4 -150)">
+        <g id="Group_22782" transform="translate(357.768 156.109)">
+            <path id="Path_34708" d="M24.049 37.843l5.131-2.422h-1.45l-2.194-1.869a.5.5 0 0 0-.362-.134h-3.6a.562.562 0 0 0-.574.572v3.853z" class="cls-1" transform="translate(-20.997 -33.418)"/>
+            <path id="Path_34709" d="M403.53 90.7h1.564v-1.85a.562.562 0 0 0-.572-.572h-2.136z" class="cls-1" transform="translate(-388.462 -86.272)"/>
+        </g>
+        <g filter="url(#Path_34710)" transform="matrix(1, 0, 0, 1, 351.4, 150)">
+            <path id="Path_34710-2" fill="#f5f5f5" d="M103.681 30.8a.662.662 0 0 0-.9-.305L93.1 35.069h12.589z" transform="translate(-84.1 -24.42)"/>
+        </g>
+        <path id="Path_34711" fill="#688fdb" d="M18.009 152.186a.592.592 0 0 0-.42-.172H.576a.592.592 0 0 0-.42.172.506.506 0 0 0-.153.42l.572 10.376a.567.567 0 0 0 .572.534h15.871a.567.567 0 0 0 .572-.534l.572-10.376a.666.666 0 0 0-.153-.42z" transform="translate(357 8.425)"/>
+        <path id="Rectangle_24350" fill="none" d="M0 0H20V16H0z" transform="translate(356 156)"/>
+    </g>
+</svg>

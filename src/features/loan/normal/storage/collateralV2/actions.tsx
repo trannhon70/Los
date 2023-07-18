@@ -1,0 +1,168 @@
+import { NormalActions } from "../..";
+
+export const addNewItemTypeCollatetal = NormalActions.addNewItemTypeCollatetal;
+export const setCollapseType = NormalActions.setCollapseType;
+export const setTypeLand = NormalActions.setTypeLand;
+export const setTypeCollateral = NormalActions.setTypeCollateral;
+export const setCollateralTypeActive= NormalActions.setCollateralTypeActive;
+export const deleteAllCollateral = NormalActions.deleteAllCollateral;
+export const onChangeCollaretalProperty = NormalActions.onChangeCollaretalProperty;
+export const addNewItemTypeCollatetalSubType = NormalActions.addNewItemTypeCollatetalSubType;
+export const setSubType = NormalActions.setSubType;
+export const setChildSubType = NormalActions.setChildSubType;
+export const setActiveSubtypeItem = NormalActions.setActiveSubtypeItem;
+export const setLandLegalInfomationOwner = NormalActions.setLandLegalInfomationOwner;
+export const setLandInformationAsset = NormalActions.setLandInformationAsset;
+export const deleleteSubItem = NormalActions.deleleteSubItem;
+export const setLandInformationAssetDataLocation = NormalActions.setLandInformationAssetDataLocation;
+export const setLandInformationAssetDataLocationCertificate = NormalActions.setLandInformationAssetDataLocationCertificate;
+export const addLandInformationAsset = NormalActions.addLandInformationAsset;
+export const setLandInformationAssetData = NormalActions.setLandInformationAssetData;
+export const onChangeLandInformationAsset = NormalActions.onChangeLandInformationAsset;
+export const removeLandInformationAsset = NormalActions.removeLandInformationAsset;
+export const setCollapseSubType = NormalActions.setCollapseSubType;
+export const setMachineLocation= NormalActions.setMachineLocation;
+export const deleleteItem = NormalActions.deleleteItem;
+export const setCollaretalAssessmentInfomation = NormalActions.setCollaretalAssessmentInfomation;
+export const setCollaretalCurrentValueItem= NormalActions.setCollaretalCurrentValueItem;
+export const addCollaretalRPRORealStateLand= NormalActions.addCollaretalRPRORealStateLand;
+export const clearFieldCTXDType = NormalActions.clearFieldCTXDType
+export const updateAPIStorageCollateralType= NormalActions.updateAPIStorageCollateralType
+export const fetchDataUpdateAPIStorageCollateralType= NormalActions.fetchDataUpdateAPIStorageCollateralType
+export const updateIgnore= NormalActions.updateIgnore
+
+/////quyen tai san
+export const addCollaretalRPRO = NormalActions.addCollaretalRPRO;
+export const postCollaterals= NormalActions.postCollaterals
+export const postCollateralsIgnore= NormalActions.postCollateralsIgnore
+export const updateCollaterals= NormalActions.updateCollaterals
+export const fetchListCollateral = NormalActions.fetchListCollateral
+export const fetchListCollateralDone = NormalActions.fetchListCollateralDone
+export const onChangeIgnoreData = NormalActions.onChangeIgnoreData
+export const setOriginData = NormalActions.setOriginData
+
+/////quyen tai san
+export const setCollaretalRPRO = NormalActions.setCollaretalRPRO;
+export const onChangeCollaretalRPRO = NormalActions.onChangeCollaretalRPRO;
+export const deleleteSubtypeItem = NormalActions.deleleteSubtypeItem;
+export const onChangeCollaretalRPROApproval = NormalActions.onChangeCollaretalRPROApproval;
+
+
+///thong tin pháp ly giay chứng nhận type BDS
+export const addCollaretalCertificate= NormalActions.addCollaretalCertificate;
+export const addCollaretalCertificateUserListLegal= NormalActions.addCollaretalCertificateUserListLegal;
+export const removeCollaretalCertificate = NormalActions.removeCollaretalCertificate;
+export const removeCollaretalCertificateUserListLegal = NormalActions.removeCollaretalCertificateUserListLegal
+export const setOnChangeCollaretalCertificate= NormalActions.setOnChangeCollaretalCertificate;
+export const setOnChangeCollaretalCertificateUserListLegal= NormalActions.setOnChangeCollaretalCertificateUserListLegal;
+export const setOnChangeCollaretalCertificateUserListLegalData= NormalActions.setOnChangeCollaretalCertificateUserListLegalData;
+
+/// CTXD trên dất
+export const addLandCTXD= NormalActions.addLandCTXD
+export const removeLandCTXD = NormalActions.removeLandCTXD;
+export const onChangeHorizonListLandCTXD= NormalActions.onChangeHorizonListLandCTXD
+export const setDataLandCTXD= NormalActions.setDataLandCTXD
+export const setDataLandCTXDLocation= NormalActions.setDataLandCTXDLocation
+export const setDataLandCTXDLocationCertificate= NormalActions.setDataLandCTXDLocationCertificate
+export const removeLandAsset = NormalActions.removeLandAsset
+
+/// CTXD có GCN QSH riêng
+export const addLandGcnQsh = NormalActions.addLandGcnQsh;
+export const deleteLandGcnQsh = NormalActions.deleteLandGcnQsh;
+export const setUuidActiveLandGcnQsh = NormalActions.setUuidActiveLandGcnQsh;
+/// Loại CTXD trên dất
+export const addLandCTXDType= NormalActions.addLandCTXDType
+export const removeLandCTXDType = NormalActions.removeLandCTXDType;
+export const onChangeHorizonListLandCTXDType= NormalActions.onChangeHorizonListLandCTXDType;
+export const onChangeLandCTXDType= NormalActions.onChangeLandCTXDType;
+export const setDataLandCTXDType= NormalActions.setDataLandCTXDType;
+
+
+// Loại chợ
+export const setMaketInfomation = NormalActions.setMaketInfomation;
+export const setOnChangeCollaretalCertificateMaket = NormalActions.setOnChangeCollaretalCertificateMaket;
+export const addCollaretalCertificateMaket = NormalActions.addCollaretalCertificateMaket;
+export const addCollaretalCertificateMaketPersionListLegal = NormalActions.addCollaretalCertificateMaketPersionListLegal;
+export const setOnChangeCollaretalCertificateMaketPersionListLegal = NormalActions.setOnChangeCollaretalCertificateMaketPersionListLegal;
+export const setOnChangeCollaretalCertificateMaketPersionListLegalData = NormalActions.setOnChangeCollaretalCertificateMaketPersionListLegalData;
+export const removeCollaretalCertificateMarket = NormalActions.removeCollaretalCertificateMarket;
+// loai chung cu 
+export const addCollaretalCertificateDepartment = NormalActions.addCollaretalCertificateDepartment;
+export const setCollaretalCertificateDepartment = NormalActions.setCollaretalCertificateDepartment;
+export const removeCollaretalCertificateDepartment = NormalActions.removeCollaretalCertificateDepartment;
+export const setOnChangeCollaretalCertificateDepartment = NormalActions.setOnChangeCollaretalCertificateDepartment;
+export const addCollaretalCertificateDepartmentPersonListLegal = NormalActions.addCollaretalCertificateDepartmentPersonListLegal;
+export const setOnChangeCollaretalCertificatDepartmentListLegal = NormalActions.setOnChangeCollaretalCertificatDepartmentListLegal;
+export const setOnChangeCollaretalCertificateDepartmentListLegalData = NormalActions.setOnChangeCollaretalCertificateDepartmentListLegalData;
+export const addCollaretalDepartmentInfo = NormalActions.addCollaretalDepartmentInfo;
+export const removeCollaretalDepartmentInfo = NormalActions.removeCollaretalDepartmentInfo;
+export const setOnChangeCollaretalDepartmentInfo = NormalActions.setOnChangeCollaretalDepartmentInfo;
+export const setOnChangeCollaretalDepartmentInfoData = NormalActions.setOnChangeCollaretalDepartmentInfoData;
+export const setLandInformationDataLocation = NormalActions.setLandInformationDataLocation;
+export const setLandInformationDataLocationCertificate = NormalActions.setLandInformationDataLocationCertificate;
+export const setLandInformationData = NormalActions.setLandInformationData;
+export const addLandCertificateInfo = NormalActions.addLandCertificateInfo;
+export const removeLandCertificateInfoUsePurposes = NormalActions.removeLandCertificateInfoUsePurposes;
+export const callRemoveLandCertificateInfoUsePurposes = NormalActions.callRemoveLandCertificateInfoUsePurposes;
+export const onLandCertificateInfo = NormalActions.onLandCertificateInfo;
+export const setLandCertificateInfoData = NormalActions.setLandCertificateInfoData;
+export const autoFillREST = NormalActions.autoFillREST;
+export const autoFillRESTDepartment = NormalActions.autoFillRESTDepartment;
+export const autoFillRESTMarket = NormalActions.autoFillRESTMarket;
+export const setCheckboxTransportType = NormalActions.setCheckboxTransportType;
+export const setCheckboxTransportTypeInput = NormalActions.setCheckboxTransportTypeInput;
+
+
+
+//// Thông tin pháp lý Đối tượng sở hữu tài sản
+export const setCollaretalOwnerType =  NormalActions.setCollaretalOwnerType;
+export const setOnChangeCollaretalActiveOwner =  NormalActions.setOnChangeCollaretalActiveOwner
+export const setCollaretalInfoOwnerHasAuthorize =  NormalActions.setCollaretalInfoOwnerHasAuthorize
+export const setCollaretalOwnerModal =  NormalActions.setCollaretalOwnerModal
+export const setCollaretalHasAuthor =  NormalActions.setCollaretalHasAuthor
+export const setOnChangeCollaretalActiveHasAuthor =  NormalActions.setOnChangeCollaretalActiveHasAuthor
+export const setOnChangeCollaretalDetailHasAuthor =  NormalActions.setOnChangeCollaretalDetailHasAuthor
+export const setCollaretalCertificatePersion =  NormalActions.setCollaretalCertificatePersion
+
+/// Certificate
+export const setCollaretalCertificate = NormalActions.setCollaretalCertificate
+//remove person Certificate
+export const removeCollaretalCertificatePerson = NormalActions.removeCollaretalCertificatePerson
+export const callRemoveCollaretalCertificatePerson = NormalActions.callRemoveCollaretalCertificatePerson
+
+/// remove nguoi được ủy quyền
+export const removeCollaretalHasAuthor = NormalActions.removeCollaretalHasAuthor
+export const setCollateralValidate = NormalActions.setCollateralValidate
+
+export const removeCollaretalOwner = NormalActions.removeCollaretalOwner
+
+
+
+export const autoFillRESTLANDDDDDDDDDDDD = NormalActions.autoFillRESTLANDDDDDDDDDDDD
+export const autoFillRESTMARKETTTTTTTTTT = NormalActions.autoFillRESTMARKETTTTTTTTTT
+
+
+// document
+export const saveCollaretalFile = NormalActions.postFileCollaterals;
+
+export const addNewCollaretalCertificateDocument = NormalActions.addNewCollaretalCertificateDocument;
+export const addNewCollaretalCertificateFile = NormalActions.addNewCollaretalCertificateFile;
+export const updateCollaretalCertificateDocument = NormalActions.updateCollaretalCertificateDocument;
+export const updateCollaretalCertificateFile = NormalActions.updateCollaretalCertificateFile;
+export const removeCollaretalCertificateDocument = NormalActions.removeCollaretalCertificateDocument;
+export const removeAllCollaretalCertificateDocument = NormalActions.removeAllCollaretalCertificateDocument;
+export const removeCollaretalCertificateFile = NormalActions.removeCollaretalCertificateFile;
+export const saveCollaretalCertificateDocument = NormalActions.saveCollaretalCertificateDocument;
+export const mappingAfterUploadCollaretalCertificateDocument = NormalActions.mappingAfterUploadCollaretalCertificateDocument;
+export const updateDescriptionCollaretalCertificateFile = NormalActions.updateDescriptionCollaretalCertificateFile;
+
+export const mappingAfterUploadSubItemDocument = NormalActions.mappingAfterUploadSubItemDocument;
+export const mappingAfterUploadDataLandCTXDGCN  = NormalActions.mappingAfterUploadDataLandCTXDGCN;
+export const mappingAfterUploadCollaretalType = NormalActions.mappingAfterUploadCollaretalType;
+export const mappingAfterUploadDataLandCTXD =  NormalActions.mappingAfterUploadDataLandCTXD;
+export const saveCollaretalDocument = NormalActions.saveCollaretalDocument;
+export const removeActionCollaretalDocument = NormalActions.removeActionCollaretalDocument;
+// deleteItem collateral 
+export const deleteCollateralItem = NormalActions.deleteCollateralItem;
+
+export const clearOnChangeCollaretalDeparmentHasCertificate = NormalActions.clearOnChangeCollaretalDeparmentHasCertificate
